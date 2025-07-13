@@ -1,2 +1,4 @@
 kfp==1.8.19
 google-cloud-pipeline-components==1.0.39
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
